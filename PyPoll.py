@@ -54,6 +54,9 @@ with open(file_to_load) as election_data:
         # Add a vote to that candidate's vote count.
         candidate_votes[candidate_name] += 1
 
+# Close the input file.
+election_data.close()
+
 # Use the open statement to save our results as a text file.
 with open(file_to_save, 'w') as txt_file:
 
@@ -106,10 +109,6 @@ with open(file_to_save, 'w') as txt_file:
     # save in the text file.
     print(winning_candidate_summary)
     txt_file.write(winning_candidate_summary)
-
-
-# Close the input file.
-election_data.close()
 
 # Close the output file
 txt_file.close()
