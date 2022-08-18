@@ -1,7 +1,7 @@
 # Colorado BOE Congressional Election Analysis
 
 ## Overview of Election Audit
-This project provides an analysis of a recent congressional election requested by the Colorado Board of Elections. The results of this analysis completes the audit of the election.
+This project provides an analysis of a recent congressional election requested by the Colorado Board of Elections. The results of this analysis completes the audit for the election.
 
 Election data comes from 3 primary methods:
 1. Mail-In Ballots
@@ -9,9 +9,16 @@ Election data comes from 3 primary methods:
 3. Direct Recording Electronic or DRE counting machines
 
 Once the data is collected in the proper format it can be read by this program to provide an analysis of 
-the total number of votes cast, the counties included in the election, the percentage of votes cast for each county, the winner of the election among other useful information described in detail in the results section of this report.
+other elections as well.  
 
-##Election Audit - Total number of votes cast
+For this analysis, the total number of votes cast, the counties included in the election, the percentage of votes cast for each county, the winner of the election among other useful information described in detail in the results section of this report.
+
+## Election Audit Results
+The image below shows the output after running the analysis on the last election:
+
+![election_results.png](./Resources/election_results.png)
+
+- Total number of votes cast
 - Each county participating in the election
 - The percentage of votes that came from each county
 - The total number of votes cast in each county
