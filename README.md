@@ -16,7 +16,8 @@ For this analysis, the total number of votes cast, the counties included in the 
 ## Election Audit Results
 The image below shows the output after running the analysis on the last election:
 
-![election_results.png](./Resources/election_results.png)
+<img src="./Resources/election_results.png" alt="election results" width="600"/>
+
 
 - Total number of votes cast
 - Each county participating in the election
